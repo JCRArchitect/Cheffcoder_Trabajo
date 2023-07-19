@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,   wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,    400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    <header>
+        <div class="nav">
+            <a href="../index.html"><div class="head" >Start</div>
+            </a>
+
+            <a href="../pages/Projects.html"><div class="head">Projects</div>
+            </a>
+
+            <a href="../pages/Investigation.html"><div class="head">Investigation</div>
+            </a>
+
+            <a href="../pages/Dashboard.html"><div class="head">Dashboards</div>
+            </a>
+
+            <a href="../pages/Contact.html"><div class="head">Contact me</div>
+            </a>
+           
+
+    </header>
+
+    <div class="contactFormContainer">
+        <form action="/submit_form" method="post" class="contactForm">
+            <h2>Contact Me</h2>
+            
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            
+            <label for="feedback">Did you like it?</label><br>
+            <select id="feedback" name="feedback">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>       
+    <footer class="footer">
+        <div class="main-footer">
+             <img src="../Icons/Twitter.png" class="Icons" alt="">
+             <img src="../Icons/Git_Hub.png" class="Icons" alt="">
+             <img src="../Icons/Face.gif" class="Icons" alt="">
+             <img src="../Icons/Whatsapp.png" class="Icons" alt="">
+             <img src="../Icons/Insta.gif" class="Icons" alt="">
+             <img src="../Icons/Twitter.png" class="Icons" alt="">
+         </div>
+     </footer>
+
+</body>
+</html>
